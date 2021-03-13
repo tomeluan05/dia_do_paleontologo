@@ -1,0 +1,121 @@
+body{
+    background-color: black;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    background-image: linear-gradient(#F1DEC1, #E8CA9B, #DEB16E);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sessao-titulo{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.titulo-principal{
+    font-size: 32px;
+    text-align: center;
+}
+
+.sessao-principal{
+    display: flex;
+    padding: 10px 80px;
+}
+
+.imagem1{
+    opacity: 0.8;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+
+.paragrafo-pt1{
+    text-align: justify;
+    text-indent: 20px;
+    padding-left: 30px;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.sessao1{
+    padding: 20px 80px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.sessao2{
+    padding: 20px 80px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.imagem2, .imagem3, .imagem4, .imagem5{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sessao3{
+    padding: 20px 80px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.sessao4{
+    padding: 20px 80px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.subtitulo{
+    font-size: 26px;
+    text-align: center;
+}
+
+.paragrafos{
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 25px;
+    font-size: 19px;
+}
+
+.rodape{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #DEB16E;
+}
+
+.paragrafo-rodape{
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+
+@media screen and (max-width: 900px){
+    body{
+        background-color: #484747;
+    }
+    
+    .sessao-principal{
+        display: inline-block;
+        padding: 10px 80px;
+    }
+
+    main{
+        text-align: center;
+    }
+
+    .imagem1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .imagem2, .imagem3, .imagem4, .imagem5{
+        width: 300px;
+    }
+}
